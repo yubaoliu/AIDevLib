@@ -1,6 +1,7 @@
 cmake_minimum_required(VERSION 3.0)
 project( launching_viz )
 find_package( OpenCV REQUIRED )
+INCLUDE_DIRECTORIES(${GLOG_INCLUDE_DIR})
 
 find_package(VTK)
 
