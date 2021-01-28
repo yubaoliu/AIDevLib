@@ -20,3 +20,11 @@ target_link_libraries(useSophus
     )
 
 # add_subdirectory(example)
+
+add_executable(main main.cpp)
+target_link_libraries(main
+    Sophus::Sophus
+    Eigen3::Eigen
+    )
+
+
