@@ -1,3 +1,6 @@
 [submodule "3rdparties/stb"]
 	path = 3rdparties/stb
 	url = https://github.com/nothings/stb.git
+[submodule "3rdparties/flowiz"]
+	path = 3rdparties/flowiz
+	url = https://github.com/georgegach/flowiz.git
