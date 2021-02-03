@@ -74,4 +74,4 @@ add_executable(main src/main.cpp)
 target_link_libraries(main ${PROJECT_NAME})
 
 add_subdirectory(example)
-add_subdirectory(eigen)
+add_subdirectory(useEigen)
